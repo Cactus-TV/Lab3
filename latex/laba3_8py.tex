@@ -1,0 +1,77 @@
+\doxysection{Файл laba\+\_\+3/laba3.py}
+\hypertarget{laba3_8py}{}\label{laba3_8py}\index{laba\_3/laba3.py@{laba\_3/laba3.py}}
+\doxysubsubsection*{Пространства имен}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacelaba3}{laba3}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21}{Сount\+Mean}} (sampling)
+\item 
+\mbox{\hyperlink{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39}{Count\+Deviation}} (sampling, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+\mbox{\hyperlink{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd}{Count\+Variation\+Coefficient}} (\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}}, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+\mbox{\hyperlink{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6}{Generate\+All\+Samplings}} (\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\item 
+\mbox{\hyperlink{namespacelaba3_afeeb5db6dbd5aa7717a03bb64ec6a18e}{Generate\+All\+Samplings2}} (\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\item 
+\mbox{\hyperlink{namespacelaba3_add95064e6ac2b6fee14b273958f1afb2}{Generate\+Another\+Element}} (ri)
+\item 
+\mbox{\hyperlink{namespacelaba3_a38bd61139830d1336f1bc596cf9e2764}{Generate\+Another\+Element2}} (x)
+\item 
+\mbox{\hyperlink{namespacelaba3_ad085110e25832a4150c237a68cf2f986}{Generate\+Sampling}} (\mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}}, r)
+\item 
+\mbox{\hyperlink{namespacelaba3_aaa2a7009e8a94e130b57c16b6ae4a9f2}{Generate\+Sampling2}} (\mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}}, x)
+\item 
+\mbox{\hyperlink{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb}{xi\+\_\+squere}} (Sampling, k, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacelaba3_a75bfd8e207e4a900ea1c465fe28820d2}{all\+\_\+samplings}} = \mbox{\hyperlink{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6}{Generate\+All\+Samplings}}(\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\item 
+int \mbox{\hyperlink{namespacelaba3_a148e3876077787926724625411d6e7a9}{b}} = 12
+\item 
+\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}} = np.\+unpackbits(np.\+array(sampling).astype(np.\+uint32).view(np.\+uint8))
+\item 
+\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}} = \mbox{\hyperlink{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39}{Count\+Deviation}}(sampling, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+dict \mbox{\hyperlink{namespacelaba3_a004f77b5259240c5726ca89f829a5ece}{eligible\+\_\+battery}} = nistrng.\+check\+\_\+eligibility\+\_\+all\+\_\+battery(\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}}, nistrng.\+SP800\+\_\+22\+R1\+A\+\_\+\+BATTERY)
+\item 
+int \mbox{\hyperlink{namespacelaba3_ad3280c0c2257baef73450b0cd3a93102}{k1}} = 23
+\item 
+int \mbox{\hyperlink{namespacelaba3_a57d44982ba52ca6e9a95be4998e5a646}{k2}} = 15
+\item 
+int \mbox{\hyperlink{namespacelaba3_abfd0ac2cfcb097304728b04bc9fc5db8}{k3}} = 3
+\item 
+int \mbox{\hyperlink{namespacelaba3_ad4492b2703bb35993773a013dd656332}{k4}} = 78
+\item 
+int \mbox{\hyperlink{namespacelaba3_a316de88e7dbc1e339f5754210627f5e4}{k5}} = 9
+\item 
+float \mbox{\hyperlink{namespacelaba3_a9748e78182a84995f19639e0eed838b2}{kvantil}} = 5.\+9915
+\item 
+int \mbox{\hyperlink{namespacelaba3_a5e78dbd5fd0fc01ba7b98dd15e27221e}{M}} = 2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}31-\/1
+\item 
+\mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}} = \mbox{\hyperlink{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21}{Сount\+Mean}}(sampling)
+\item 
+int \mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}} = 20
+\item 
+int \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}} = 160
+\item 
+str \mbox{\hyperlink{namespacelaba3_a847c4ee87a1c07fb74df90049dbf53dc}{path}} = "{}./gen\+\_\+1\+\_\+results/"{}
+\item 
+int \mbox{\hyperlink{namespacelaba3_a656840134a9c11507535da91d3ffb9af}{r0}} = 43
+\item 
+\mbox{\hyperlink{namespacelaba3_a339bb5524b06e496a6aaa0a97a4a8d21}{results}} = nistrng.\+run\+\_\+all\+\_\+battery(\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}}, \mbox{\hyperlink{namespacelaba3_a004f77b5259240c5726ca89f829a5ece}{eligible\+\_\+battery}}, False)
+\item 
+list \mbox{\hyperlink{namespacelaba3_af31eee15f02ee79396e7430a135a5547}{tests}}
+\item 
+\mbox{\hyperlink{namespacelaba3_a3dd3bd682b5194b38b2db0cfb28bdd5e}{variation\+\_\+coefficient}} = \mbox{\hyperlink{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd}{Count\+Variation\+Coefficient}}(\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}}, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+list \mbox{\hyperlink{namespacelaba3_a5143fde093a857d54310caedfad59590}{X}} = \mbox{[}86147, 67333, 50210, 43123, 35498\mbox{]}
+\item 
+\mbox{\hyperlink{namespacelaba3_a0423bd40e851355c23922863212baca6}{xi\+\_\+squere\+\_\+}} = \mbox{\hyperlink{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb}{xi\+\_\+squere}}(sampling, 4, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\end{DoxyCompactItemize}

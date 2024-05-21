@@ -1,0 +1,281 @@
+\doxysection{Пространство имен laba3}
+\hypertarget{namespacelaba3}{}\label{namespacelaba3}\index{laba3@{laba3}}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21}{Сount\+Mean}} (sampling)
+\item 
+\mbox{\hyperlink{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39}{Count\+Deviation}} (sampling, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+\mbox{\hyperlink{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd}{Count\+Variation\+Coefficient}} (\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}}, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+\mbox{\hyperlink{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6}{Generate\+All\+Samplings}} (\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\item 
+\mbox{\hyperlink{namespacelaba3_afeeb5db6dbd5aa7717a03bb64ec6a18e}{Generate\+All\+Samplings2}} (\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\item 
+\mbox{\hyperlink{namespacelaba3_add95064e6ac2b6fee14b273958f1afb2}{Generate\+Another\+Element}} (ri)
+\item 
+\mbox{\hyperlink{namespacelaba3_a38bd61139830d1336f1bc596cf9e2764}{Generate\+Another\+Element2}} (x)
+\item 
+\mbox{\hyperlink{namespacelaba3_ad085110e25832a4150c237a68cf2f986}{Generate\+Sampling}} (\mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}}, r)
+\item 
+\mbox{\hyperlink{namespacelaba3_aaa2a7009e8a94e130b57c16b6ae4a9f2}{Generate\+Sampling2}} (\mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}}, x)
+\item 
+\mbox{\hyperlink{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb}{xi\+\_\+squere}} (Sampling, k, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacelaba3_a75bfd8e207e4a900ea1c465fe28820d2}{all\+\_\+samplings}} = \mbox{\hyperlink{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6}{Generate\+All\+Samplings}}(\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\item 
+int \mbox{\hyperlink{namespacelaba3_a148e3876077787926724625411d6e7a9}{b}} = 12
+\item 
+\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}} = np.\+unpackbits(np.\+array(sampling).astype(np.\+uint32).view(np.\+uint8))
+\item 
+\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}} = \mbox{\hyperlink{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39}{Count\+Deviation}}(sampling, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+dict \mbox{\hyperlink{namespacelaba3_a004f77b5259240c5726ca89f829a5ece}{eligible\+\_\+battery}} = nistrng.\+check\+\_\+eligibility\+\_\+all\+\_\+battery(\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}}, nistrng.\+SP800\+\_\+22\+R1\+A\+\_\+\+BATTERY)
+\item 
+int \mbox{\hyperlink{namespacelaba3_ad3280c0c2257baef73450b0cd3a93102}{k1}} = 23
+\item 
+int \mbox{\hyperlink{namespacelaba3_a57d44982ba52ca6e9a95be4998e5a646}{k2}} = 15
+\item 
+int \mbox{\hyperlink{namespacelaba3_abfd0ac2cfcb097304728b04bc9fc5db8}{k3}} = 3
+\item 
+int \mbox{\hyperlink{namespacelaba3_ad4492b2703bb35993773a013dd656332}{k4}} = 78
+\item 
+int \mbox{\hyperlink{namespacelaba3_a316de88e7dbc1e339f5754210627f5e4}{k5}} = 9
+\item 
+float \mbox{\hyperlink{namespacelaba3_a9748e78182a84995f19639e0eed838b2}{kvantil}} = 5.\+9915
+\item 
+int \mbox{\hyperlink{namespacelaba3_a5e78dbd5fd0fc01ba7b98dd15e27221e}{M}} = 2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}31-\/1
+\item 
+\mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}} = \mbox{\hyperlink{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21}{Сount\+Mean}}(sampling)
+\item 
+int \mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}} = 20
+\item 
+int \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}} = 160
+\item 
+str \mbox{\hyperlink{namespacelaba3_a847c4ee87a1c07fb74df90049dbf53dc}{path}} = "{}./gen\+\_\+1\+\_\+results/"{}
+\item 
+int \mbox{\hyperlink{namespacelaba3_a656840134a9c11507535da91d3ffb9af}{r0}} = 43
+\item 
+\mbox{\hyperlink{namespacelaba3_a339bb5524b06e496a6aaa0a97a4a8d21}{results}} = nistrng.\+run\+\_\+all\+\_\+battery(\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}}, \mbox{\hyperlink{namespacelaba3_a004f77b5259240c5726ca89f829a5ece}{eligible\+\_\+battery}}, False)
+\item 
+list \mbox{\hyperlink{namespacelaba3_af31eee15f02ee79396e7430a135a5547}{tests}}
+\item 
+\mbox{\hyperlink{namespacelaba3_a3dd3bd682b5194b38b2db0cfb28bdd5e}{variation\+\_\+coefficient}} = \mbox{\hyperlink{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd}{Count\+Variation\+Coefficient}}(\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}}, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})
+\item 
+list \mbox{\hyperlink{namespacelaba3_a5143fde093a857d54310caedfad59590}{X}} = \mbox{[}86147, 67333, 50210, 43123, 35498\mbox{]}
+\item 
+\mbox{\hyperlink{namespacelaba3_a0423bd40e851355c23922863212baca6}{xi\+\_\+squere\+\_\+}} = \mbox{\hyperlink{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb}{xi\+\_\+squere}}(sampling, 4, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Функции}
+\Hypertarget{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21}\index{laba3@{laba3}!СountMean@{СountMean}}
+\index{СountMean@{СountMean}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{СountMean()}{СountMean()}}
+{\footnotesize\ttfamily \label{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21} 
+Сount\+Mean (\begin{DoxyParamCaption}\item[{}]{sampling}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39}\index{laba3@{laba3}!CountDeviation@{CountDeviation}}
+\index{CountDeviation@{CountDeviation}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{CountDeviation()}{CountDeviation()}}
+{\footnotesize\ttfamily \label{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39} 
+Count\+Deviation (\begin{DoxyParamCaption}\item[{}]{sampling}{, }\item[{}]{mean\+\_\+}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd}\index{laba3@{laba3}!CountVariationCoefficient@{CountVariationCoefficient}}
+\index{CountVariationCoefficient@{CountVariationCoefficient}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{CountVariationCoefficient()}{CountVariationCoefficient()}}
+{\footnotesize\ttfamily \label{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd} 
+Count\+Variation\+Coefficient (\begin{DoxyParamCaption}\item[{}]{deviation}{, }\item[{}]{mean\+\_\+}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6}\index{laba3@{laba3}!GenerateAllSamplings@{GenerateAllSamplings}}
+\index{GenerateAllSamplings@{GenerateAllSamplings}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{GenerateAllSamplings()}{GenerateAllSamplings()}}
+{\footnotesize\ttfamily \label{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6} 
+Generate\+All\+Samplings (\begin{DoxyParamCaption}\item[{}]{N}{, }\item[{}]{n}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_afeeb5db6dbd5aa7717a03bb64ec6a18e}\index{laba3@{laba3}!GenerateAllSamplings2@{GenerateAllSamplings2}}
+\index{GenerateAllSamplings2@{GenerateAllSamplings2}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{GenerateAllSamplings2()}{GenerateAllSamplings2()}}
+{\footnotesize\ttfamily \label{namespacelaba3_afeeb5db6dbd5aa7717a03bb64ec6a18e} 
+Generate\+All\+Samplings2 (\begin{DoxyParamCaption}\item[{}]{N}{, }\item[{}]{n}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_add95064e6ac2b6fee14b273958f1afb2}\index{laba3@{laba3}!GenerateAnotherElement@{GenerateAnotherElement}}
+\index{GenerateAnotherElement@{GenerateAnotherElement}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{GenerateAnotherElement()}{GenerateAnotherElement()}}
+{\footnotesize\ttfamily \label{namespacelaba3_add95064e6ac2b6fee14b273958f1afb2} 
+Generate\+Another\+Element (\begin{DoxyParamCaption}\item[{}]{ri}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_a38bd61139830d1336f1bc596cf9e2764}\index{laba3@{laba3}!GenerateAnotherElement2@{GenerateAnotherElement2}}
+\index{GenerateAnotherElement2@{GenerateAnotherElement2}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{GenerateAnotherElement2()}{GenerateAnotherElement2()}}
+{\footnotesize\ttfamily \label{namespacelaba3_a38bd61139830d1336f1bc596cf9e2764} 
+Generate\+Another\+Element2 (\begin{DoxyParamCaption}\item[{}]{x}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_ad085110e25832a4150c237a68cf2f986}\index{laba3@{laba3}!GenerateSampling@{GenerateSampling}}
+\index{GenerateSampling@{GenerateSampling}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{GenerateSampling()}{GenerateSampling()}}
+{\footnotesize\ttfamily \label{namespacelaba3_ad085110e25832a4150c237a68cf2f986} 
+Generate\+Sampling (\begin{DoxyParamCaption}\item[{}]{n}{, }\item[{}]{r}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_aaa2a7009e8a94e130b57c16b6ae4a9f2}\index{laba3@{laba3}!GenerateSampling2@{GenerateSampling2}}
+\index{GenerateSampling2@{GenerateSampling2}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{GenerateSampling2()}{GenerateSampling2()}}
+{\footnotesize\ttfamily \label{namespacelaba3_aaa2a7009e8a94e130b57c16b6ae4a9f2} 
+Generate\+Sampling2 (\begin{DoxyParamCaption}\item[{}]{n}{, }\item[{}]{x}{}\end{DoxyParamCaption})}
+
+\Hypertarget{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb}\index{laba3@{laba3}!xi\_squere@{xi\_squere}}
+\index{xi\_squere@{xi\_squere}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{xi\_squere()}{xi\_squere()}}
+{\footnotesize\ttfamily \label{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb} 
+xi\+\_\+squere (\begin{DoxyParamCaption}\item[{}]{Sampling}{, }\item[{}]{k}{, }\item[{}]{n}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Переменные}
+\Hypertarget{namespacelaba3_a75bfd8e207e4a900ea1c465fe28820d2}\index{laba3@{laba3}!all\_samplings@{all\_samplings}}
+\index{all\_samplings@{all\_samplings}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{all\_samplings}{all\_samplings}}
+{\footnotesize\ttfamily \label{namespacelaba3_a75bfd8e207e4a900ea1c465fe28820d2} 
+all\+\_\+samplings = \mbox{\hyperlink{namespacelaba3_a3d349fd2101bd2dd98e665fca79cbeb6}{Generate\+All\+Samplings}}(\mbox{\hyperlink{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})}
+
+\Hypertarget{namespacelaba3_a148e3876077787926724625411d6e7a9}\index{laba3@{laba3}!b@{b}}
+\index{b@{b}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{b}{b}}
+{\footnotesize\ttfamily \label{namespacelaba3_a148e3876077787926724625411d6e7a9} 
+int b = 12}
+
+\Hypertarget{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}\index{laba3@{laba3}!data\_bits@{data\_bits}}
+\index{data\_bits@{data\_bits}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{data\_bits}{data\_bits}}
+{\footnotesize\ttfamily \label{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01} 
+data\+\_\+bits = np.\+unpackbits(np.\+array(sampling).astype(np.\+uint32).view(np.\+uint8))}
+
+\Hypertarget{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}\index{laba3@{laba3}!deviation@{deviation}}
+\index{deviation@{deviation}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{deviation}{deviation}}
+{\footnotesize\ttfamily \label{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4} 
+deviation = \mbox{\hyperlink{namespacelaba3_a830d6bd5f85f9f78353b6cd38d2dfb39}{Count\+Deviation}}(sampling, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})}
+
+\Hypertarget{namespacelaba3_a004f77b5259240c5726ca89f829a5ece}\index{laba3@{laba3}!eligible\_battery@{eligible\_battery}}
+\index{eligible\_battery@{eligible\_battery}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{eligible\_battery}{eligible\_battery}}
+{\footnotesize\ttfamily \label{namespacelaba3_a004f77b5259240c5726ca89f829a5ece} 
+dict eligible\+\_\+battery = nistrng.\+check\+\_\+eligibility\+\_\+all\+\_\+battery(\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}}, nistrng.\+SP800\+\_\+22\+R1\+A\+\_\+\+BATTERY)}
+
+\Hypertarget{namespacelaba3_ad3280c0c2257baef73450b0cd3a93102}\index{laba3@{laba3}!k1@{k1}}
+\index{k1@{k1}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{k1}{k1}}
+{\footnotesize\ttfamily \label{namespacelaba3_ad3280c0c2257baef73450b0cd3a93102} 
+int k1 = 23}
+
+\Hypertarget{namespacelaba3_a57d44982ba52ca6e9a95be4998e5a646}\index{laba3@{laba3}!k2@{k2}}
+\index{k2@{k2}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{k2}{k2}}
+{\footnotesize\ttfamily \label{namespacelaba3_a57d44982ba52ca6e9a95be4998e5a646} 
+int k2 = 15}
+
+\Hypertarget{namespacelaba3_abfd0ac2cfcb097304728b04bc9fc5db8}\index{laba3@{laba3}!k3@{k3}}
+\index{k3@{k3}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{k3}{k3}}
+{\footnotesize\ttfamily \label{namespacelaba3_abfd0ac2cfcb097304728b04bc9fc5db8} 
+int k3 = 3}
+
+\Hypertarget{namespacelaba3_ad4492b2703bb35993773a013dd656332}\index{laba3@{laba3}!k4@{k4}}
+\index{k4@{k4}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{k4}{k4}}
+{\footnotesize\ttfamily \label{namespacelaba3_ad4492b2703bb35993773a013dd656332} 
+int k4 = 78}
+
+\Hypertarget{namespacelaba3_a316de88e7dbc1e339f5754210627f5e4}\index{laba3@{laba3}!k5@{k5}}
+\index{k5@{k5}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{k5}{k5}}
+{\footnotesize\ttfamily \label{namespacelaba3_a316de88e7dbc1e339f5754210627f5e4} 
+int k5 = 9}
+
+\Hypertarget{namespacelaba3_a9748e78182a84995f19639e0eed838b2}\index{laba3@{laba3}!kvantil@{kvantil}}
+\index{kvantil@{kvantil}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{kvantil}{kvantil}}
+{\footnotesize\ttfamily \label{namespacelaba3_a9748e78182a84995f19639e0eed838b2} 
+float kvantil = 5.\+9915}
+
+\Hypertarget{namespacelaba3_a5e78dbd5fd0fc01ba7b98dd15e27221e}\index{laba3@{laba3}!M@{M}}
+\index{M@{M}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{M}{M}}
+{\footnotesize\ttfamily \label{namespacelaba3_a5e78dbd5fd0fc01ba7b98dd15e27221e} 
+int M = 2\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}31-\/1}
+
+\Hypertarget{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}\index{laba3@{laba3}!mean\_@{mean\_}}
+\index{mean\_@{mean\_}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{mean\_}{mean\_}}
+{\footnotesize\ttfamily \label{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950} 
+mean\+\_\+ = \mbox{\hyperlink{namespacelaba3_af59de0f7c943f6569bd40dfa9dd8fd21}{Сount\+Mean}}(sampling)}
+
+\Hypertarget{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337}\index{laba3@{laba3}!N@{N}}
+\index{N@{N}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{N}{N}}
+{\footnotesize\ttfamily \label{namespacelaba3_a7722c8ecbb62d99aee7ce68b1752f337} 
+int N = 20}
+
+\Hypertarget{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}\index{laba3@{laba3}!n@{n}}
+\index{n@{n}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{n}{n}}
+{\footnotesize\ttfamily \label{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240} 
+int n = 160}
+
+\Hypertarget{namespacelaba3_a847c4ee87a1c07fb74df90049dbf53dc}\index{laba3@{laba3}!path@{path}}
+\index{path@{path}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily \label{namespacelaba3_a847c4ee87a1c07fb74df90049dbf53dc} 
+str path = "{}./gen\+\_\+1\+\_\+results/"{}}
+
+\Hypertarget{namespacelaba3_a656840134a9c11507535da91d3ffb9af}\index{laba3@{laba3}!r0@{r0}}
+\index{r0@{r0}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{r0}{r0}}
+{\footnotesize\ttfamily \label{namespacelaba3_a656840134a9c11507535da91d3ffb9af} 
+int r0 = 43}
+
+\Hypertarget{namespacelaba3_a339bb5524b06e496a6aaa0a97a4a8d21}\index{laba3@{laba3}!results@{results}}
+\index{results@{results}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{results}{results}}
+{\footnotesize\ttfamily \label{namespacelaba3_a339bb5524b06e496a6aaa0a97a4a8d21} 
+results = nistrng.\+run\+\_\+all\+\_\+battery(\mbox{\hyperlink{namespacelaba3_ad8940b5a35950b53058e79d581ff2e01}{data\+\_\+bits}}, \mbox{\hyperlink{namespacelaba3_a004f77b5259240c5726ca89f829a5ece}{eligible\+\_\+battery}}, False)}
+
+\Hypertarget{namespacelaba3_af31eee15f02ee79396e7430a135a5547}\index{laba3@{laba3}!tests@{tests}}
+\index{tests@{tests}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{tests}{tests}}
+{\footnotesize\ttfamily \label{namespacelaba3_af31eee15f02ee79396e7430a135a5547} 
+list tests}
+
+{\bfseries Инициализатор}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ [}
+\DoxyCodeLine{00002\ \ \ \ \ \ \ \ \ nistrng.SP800\_22R1A\_BATTERY[\textcolor{stringliteral}{"{}monobit"{}}],}
+\DoxyCodeLine{00003\ \ \ \ \ \ \ \ \ nistrng.SP800\_22R1A\_BATTERY[\textcolor{stringliteral}{"{}frequency\_within\_block"{}}],}
+\DoxyCodeLine{00004\ \ \ \ \ \ \ \ \ nistrng.SP800\_22R1A\_BATTERY[\textcolor{stringliteral}{"{}runs"{}}],}
+\DoxyCodeLine{00005\ \ \ \ \ \ \ \ \ nistrng.SP800\_22R1A\_BATTERY[\textcolor{stringliteral}{"{}longest\_run\_ones\_in\_a\_block"{}}],}
+\DoxyCodeLine{00006\ \ \ \ \ \ \ \ \ nistrng.SP800\_22R1A\_BATTERY[\textcolor{stringliteral}{"{}binary\_matrix\_rank"{}}]}
+\DoxyCodeLine{00007\ \ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{namespacelaba3_a3dd3bd682b5194b38b2db0cfb28bdd5e}\index{laba3@{laba3}!variation\_coefficient@{variation\_coefficient}}
+\index{variation\_coefficient@{variation\_coefficient}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{variation\_coefficient}{variation\_coefficient}}
+{\footnotesize\ttfamily \label{namespacelaba3_a3dd3bd682b5194b38b2db0cfb28bdd5e} 
+variation\+\_\+coefficient = \mbox{\hyperlink{namespacelaba3_a91dfc63033001249ff16a1bb1c9af3fd}{Count\+Variation\+Coefficient}}(\mbox{\hyperlink{namespacelaba3_a42d1433b6b8b3ebf08a9a7f0b92133c4}{deviation}}, \mbox{\hyperlink{namespacelaba3_a070377d4c15c4965d4fe28cb261f2950}{mean\+\_\+}})}
+
+\Hypertarget{namespacelaba3_a5143fde093a857d54310caedfad59590}\index{laba3@{laba3}!X@{X}}
+\index{X@{X}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{X}{X}}
+{\footnotesize\ttfamily \label{namespacelaba3_a5143fde093a857d54310caedfad59590} 
+list X = \mbox{[}86147, 67333, 50210, 43123, 35498\mbox{]}}
+
+\Hypertarget{namespacelaba3_a0423bd40e851355c23922863212baca6}\index{laba3@{laba3}!xi\_squere\_@{xi\_squere\_}}
+\index{xi\_squere\_@{xi\_squere\_}!laba3@{laba3}}
+\doxysubsubsection{\texorpdfstring{xi\_squere\_}{xi\_squere\_}}
+{\footnotesize\ttfamily \label{namespacelaba3_a0423bd40e851355c23922863212baca6} 
+xi\+\_\+squere\+\_\+ = \mbox{\hyperlink{namespacelaba3_ad98d9cec8835e34cffbe617fb484c9cb}{xi\+\_\+squere}}(sampling, 4, \mbox{\hyperlink{namespacelaba3_a76f11d9a0a47b94f72c2d0e77fb32240}{n}})}
+
